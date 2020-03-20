@@ -158,38 +158,6 @@ public class StickTabLayout2 extends LinearLayout implements NestedScrollingChil
 
 
 
-    /*  @Override
-    public boolean onInterceptTouchEvent(MotionEvent ev) {
-        boolean intercept = false;
-        switch (ev.getAction()) {
-            case MotionEvent.ACTION_DOWN:
-                downY = ev.getY();
-                downX = ev.getX();
-                velocityTracker .clear();
-                moveMode = false;
-                scroller.abortAnimation();
-                break;
-            case MotionEvent.ACTION_MOVE:
-                velocityTracker.addMovement(ev);
-                float dx = ev.getX() - downX;
-                float dy = ev.getY() - downY;
-
-                //从没有滚动到滚动，第一次变化时要判断滑动是否大于阀值
-                float absDx = Math.abs(dx);
-                float absDy = Math.abs(dy);
-                int scrollY = getScrollY();
-                if (absDy > absDx && absDy > touchSlop) {
-                    if (dy < 0 && scrollY < topHeight) {
-                        intercept = true;//向下滑动
-                    }
-                    if (dy > 0 && scrollUpTarget != null && !scrollUpTarget.canScrollUp() && scrollY > 0) {
-                        intercept = true;//向上滑动
-                    }
-                }
-        }
-        return intercept;
-    }
-*/
 
     @Override
     public boolean dispatchTouchEvent(MotionEvent ev) {
@@ -210,7 +178,7 @@ public class StickTabLayout2 extends LinearLayout implements NestedScrollingChil
         this.scrollUpTarget = scrollUpTarget;
     }
 
- /*   @Override
+    @Override
     public boolean onTouchEvent(MotionEvent ev) {
 //        Log.i(TAG, "onTouchEvent event action=" + ev.getAction() + " y=" + ev.getY());
         velocityTracker.addMovement(ev);
@@ -242,7 +210,7 @@ public class StickTabLayout2 extends LinearLayout implements NestedScrollingChil
                 break;
         }
         return true;
-    }*/
+    }
 
     @Override
     public void computeScroll() {
