@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.slidingconflict.p1.MyScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:overScrollMode="never"
+    tools:context=".p1.MainActivity">
+
+    <com.example.slidingconflict.p1.MyLayout
+        android:orientation="vertical"
+        android:id="@+id/myLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+
+            <ImageView
+                android:id="@+id/iv_top"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="新疆"
+                android:textColor="#fff"
+                android:textSize="40sp" />
+        </RelativeLayout>
+
+        <com.example.slidingconflict.p1.MyViewPaper
+            android:id="@+id/viewPaper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.example.slidingconflict.p1.MyLayout>
+</com.example.slidingconflict.p1.MyScrollView>
