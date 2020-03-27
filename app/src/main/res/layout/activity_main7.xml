@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.slidingconflict.p7.FlowLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#f00"
+    android:layout_height="wrap_content"
+    tools:context=".p7.Main7Activity">
+
+    <TextView
+        android:background="@drawable/shape_eee_rc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="新闻热词1"
+        android:textColor="#000"
+        android:textSize="15dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:background="@drawable/shape_eee_rc"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="经济社会热词1"
+        android:textColor="#000"
+        android:textSize="15dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:background="@drawable/shape_eee_rc"
+        android:layout_width="800dp"
+        android:layout_height="20dp"
+        android:text="新闻热词2"
+        android:textColor="#000"
+        android:textSize="15dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:background="@drawable/shape_eee_rc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="经济社会热词2"
+        android:textColor="#000"
+        android:textSize="15dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:background="@drawable/shape_eee_rc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="新闻热词3"
+        android:textColor="#000"
+        android:textSize="15dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:background="@drawable/shape_eee_rc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="经济社会热词3"
+        android:textColor="#000"
+        android:textSize="15dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:background="@drawable/shape_eee_rc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="新闻热词4"
+        android:textColor="#000"
+        android:textSize="15dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:background="@drawable/shape_eee_rc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="新闻热词5"
+        android:textColor="#000"
+        android:textSize="15dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:background="@drawable/shape_eee_rc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="经济社会热词4"
+        android:textColor="#000"
+        android:textSize="15dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:background="@drawable/shape_eee_rc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="新闻热词6"
+        android:textColor="#000"
+        android:textSize="15dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:background="@drawable/shape_eee_rc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="经济社会热词5"
+        android:textColor="#000"
+        android:textSize="15dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:background="@drawable/shape_eee_rc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="新闻热词7"
+        android:textColor="#000"
+        android:textSize="15dp"
+        tools:ignore="HardcodedText" />
+
+</com.example.slidingconflict.p7.FlowLayout>
